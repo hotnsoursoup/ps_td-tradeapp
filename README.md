@@ -59,6 +59,8 @@ Alternatively, there's this decent write up as well.
 
 https://www.reddit.com/r/algotrading/comments/914q22/successful_access_to_td_ameritrade_api/
 
+Below is my take on it... 
+
 ### Retrieving your Auth Code
 
 * Step 1: Plug your consumer key and redirect uri into this URL and navigate to it. For testing, I used localhost and I'll use a fake consumer key for my app here.  ""
