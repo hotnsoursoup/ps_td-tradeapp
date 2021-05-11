@@ -1,0 +1,15 @@
+<!-- config.xml -->
+<config>
+  <redirecturi>http://localhost</redirecturi>
+  <auth_code>your_auth_code_here</auth_code>
+  <consumer_key>your_consumer_key_here</consumer_key>
+  <token>
+	<refresh_token></refresh_token>
+	<refreshTokenExpiration></refreshTokenExpiration>
+  </token>
+  <endpoints>
+	<authuri>https://api.tdameritrade.com/v1/oauth2/token</authuri>
+	<getquoteuri>https://api.tdameritrade.com/v1/marketdata/TICKER/quotes</getquoteuri>
+	<getallquotesuri>https://api.tdameritrade.com/v1/marketdata/quotes</getallquotesuri>
+  </endpoints>
+</config>
