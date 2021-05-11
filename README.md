@@ -55,6 +55,8 @@ You will need to retrieve your keys first. This is done on the developer site. T
 
 https://developer.tdameritrade.com/guides
 
+https://developer.tdameritrade.com/content/getting-started
+
 Alternatively, there's this decent write up as well.
 
 https://www.reddit.com/r/algotrading/comments/914q22/successful_access_to_td_ameritrade_api/
