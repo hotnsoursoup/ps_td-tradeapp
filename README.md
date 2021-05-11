@@ -82,7 +82,7 @@ Also, the auth code is worthless after it is traded for the first refresh token.
 Next, update your consumer key and redirectURI as configured in your app. Nothing else in the config.xml file has to be updated. 
 
 ### Modify folder path
-Since we're not going into the invocation location realm of things, the directory is static and is listed on line ~ 24ish of the main script. Modify that to your starting directory
+The current beta version has the current invocation location configured, but if you want to change your directory to a static directory you can do so like below in the sample script.
 
 ```powershell
 #Set your working directory where related config files and script files are held. 
@@ -102,7 +102,9 @@ The functions were built with a global variable set, which means most of them do
 ### Sample output from a ticker. (TSLA)
 ```
 assetType                          : EQUITY
-assetMainType                      : EQUITY
+asset
+
+Type                      : EQUITY
 cusip                              : 88160R101
 symbol                             : TSLA
 description                        : Tesla, Inc.  - Common Stock
