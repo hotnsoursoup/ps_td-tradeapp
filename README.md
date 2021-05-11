@@ -3,7 +3,7 @@
 ## Author Notes
 Hey guys it's Victor. 
 
-This is NOT a fully built script designed to help you trade from minute one. It is for educational purposes and jump start YOUR OWN build. I decided to do this on a whim and add it to my portfolio. You are free to use it. You will have to build your own algos. Yes I know PowerShell isn't the best, but it's readily available on everyones Windows PC. This will get you connected quickly to the TD AMER API and retrieve quotes. I'm dumping things to a CSV file. Not everyone has SQL Server installed on their desktop so I figured CSV was the way to go. Otherwise I may upload some of my SQL Update scripts in future and/or integrate them in here. 
+This script was built for educational purposes and help jump start YOUR OWN build. This is NOT a fully built script designed to help you trade from minute one. You are free to use it however you wish, though you will have to build your own trading algos. Yes I know PowerShell isn't the best, but it's readily available on everyones Windows PC. This will get you connected quickly to the TD AMER API and retrieve quotes. Not everyone has SQL Server installed on their desktop so I figured CSV was the way to go to get people started for data storage. Otherwise I may upload some of my SQL Update scripts in future and/or integrate them in here. 
 
 You will need at least some understanding of programming/scripting.
 
