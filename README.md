@@ -39,7 +39,7 @@ Here's a reference for making the key file --> https://www.altaro.com/msp-dojo/e
 You can, alternatively, use a key vault like azure key vault.
 
 ### Modifying the watchlist
-You'll need to modify the watchlist.csv file if you want to create your own here. The API also allows you to fetch your own watchlist, but that's out of scope for the current version.
+You'll need to modify the watchlist.csv file to add in your own ticker(s). The API also allows you to fetch your own watchlist, but that's out of scope for the current version.
 
 | Name | Tags | Description | Tickers
 | ------------- | ------------- |------------- |------------- |
