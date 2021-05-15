@@ -66,11 +66,11 @@ Below is my take on it...
 ### Retrieving your Auth Code
 
 * Step 1: Plug your consumer key and redirect uri into this URL and navigate to it. For testing, I used localhost and I'll use a fake consumer key for my app here.  ""
- 	* template: https://auth.tdameritrade.com/oauth?client_id=**YOUR_CONSUMERKEY_HERE*@AMER.OAUTHAP&response_type=code&redirect_uri=**YOUR_REDIRECT_URI**
- 	* example url: https://auth.tdameritrade.com/oauth?client_id=**GX314K34JJKDMMXHB4DX**@AMER.OAUTHAP&response_type=code&redirect_uri=**http://localhost**
+ 	* template: https://auth.tdameritrade.com/oauth?client_id=YOUR_CONSUMERKEY_HERE*@AMER.OAUTHAP&response_type=code&redirect_uri=YOUR_REDIRECT_URI
+ 	* example url: https://auth.tdameritrade.com/oauth?client_id=GX314K34JJKDMMXHB4DX**@AMER.OAUTHAP&response_type=code&redirect_uri=http://localhost
 * Step 2: Log in using your app credentials
 * Step 3: COPY the code part of the output in the browser address bar. The site may come up empty, but you'll get an AUTHORIZATION code similar to this in the address bar, except a LOT longer.
- 	* e.g. https://localhost/?code=**xh13gjhohjhey12jx%41abxnjk213b12hj3k1bjkxbm1ads9x81z21jkxkam%B2Fstxe4i9jn32G%2jjkjk%**
+ 	* e.g. https://localhost/?code=xh13gjhohjhey12jx%41abxnjk213b12hj3k1bjkxbm1ads9x81z21jkxkam%B2Fstxe4i9jn32G%2jjkjk%
 	 * The extracted code would then be "_xh13gjhohjhey12jx%41abxnjk213b12hj3k1bjkxbm1ads9x81z21jkxkam%B2Fstxe4i9jn32G%2jjkjk%2_"
 
 ### Modify config.xml
