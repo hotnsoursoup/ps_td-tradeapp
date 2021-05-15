@@ -74,7 +74,7 @@ Below is my take on it...
 	 * The extracted code would then be "_xh13gjhohjhey12jx%41abxnjk213b12hj3k1bjkxbm1ads9x81z21jkxkam%B2Fstxe4i9jn32G%2jjkjk%2_"
 
 ### Modify config.xml
-Place the code into the config.xml file for the section on auth_code, consumer key, and redirecturi. I put in my redirectUri below.
+Place the correct information  into the config.xml file for the section on auth_code, consumer key, and redirecturi. I put in my redirectUri below.
 ```xml
 <redirecturi>http://localhost</redirecturi>
 <consumer_key>YOUR_CONSUMER_KEY_HERE</consumer_key>
